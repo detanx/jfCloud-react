@@ -1,0 +1,265 @@
+.center-cover {
+  border-top: 1px solid #cccccc;
+  background-color: #F4F4F4; 
+}
+
+.teacher-topleft {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 100px;
+  height: 200px;
+}
+
+.teacher-topleft img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 1px solid #EEEEEE;
+}
+
+.teacher-topleft p {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.teacher-topmid {
+  margin: 20px 20px 0 30px;
+  width: 720px;
+  height: 200px;
+}
+
+.teacher-topmid div p {
+  display: inline-block;
+  width: 50%;
+  line-height: 26px;
+  word-break: break-all;
+  text-overflow: ellipsis; /* for IE */  
+  -moz-text-overflow: ellipsis; /* for Firefox,mozilla */  
+  overflow: hidden;  
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.teacher-topmid p {
+  font-size: 14px;
+}
+
+.teacher-topmid span {
+  margin-left: 10px;
+  color: #999;
+}
+
+.teacher-topmid .owner-intro ,
+.ownerset-intro {
+  position: relative;
+}
+
+.teacher-topmid .owner-intro .owner-introp2 ,
+.ownerset-introp2 {
+  margin-left: 80px;
+  width: calc(100% - 80px);
+  width: -moz-calc(100% - 80px);
+  width: -webkit-calc(100% - 80px);
+  max-height: 54px;
+  word-break: break-word;
+  text-overflow: normal; /* for IE */  
+  -moz-text-overflow: normal; /* for Firefox,mozilla */  
+  overflow: none;
+  overflow-y: scroll;
+  white-space: pre-wrap; 
+  color: #999;
+  margin-top: 6px;
+  height: 60px;
+  line-height: 20px !important;
+  font-size: 14px !important;
+}
+
+.owner-intro .owner-introp1 ,
+.ownerset-introp1 {
+  position: absolute;
+  top: -4px;
+  width: 80px;
+}
+
+.owner-intro .owner-introp1 {
+  top: 2px;
+}
+
+.teacher-topmid p.dash-border,
+.teacher-topmid .dash-border {
+  width: 100%;
+  height: 42px;
+  line-height: 26px;
+  background-image: linear-gradient(to right, #ccc 0%, #ccc 50%, transparent 50%);
+  background-size: 20px 1px;
+  background-position-y: 40px;
+  background-repeat: repeat-x;
+}
+
+.teacher-topmid div.dash-border p {
+  width: 80%;
+}
+
+.dash-border a {
+  position: relative;
+  top: -8px;
+  left: 70px;
+  font-size: 12px;
+  color: #4FA4EA;
+}
+
+.teacher-topmid p.true-name {
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 26px;
+}
+
+span.male {
+  position: relative;
+  top: 4px;
+  left: 6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../imgs/teacher/u2345.png) no-repeat;
+  background-size: 70%;
+}
+
+span.famale {
+  position: relative;
+  top: 4px;
+  left: 6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../imgs/teacher/nv.png) no-repeat;
+  background-size: 70%;
+}
+
+.teacher-topright {
+  width: 166px;
+  height: 200px;
+  text-align: center;
+  background: url(../../imgs/teacher/u1935.png) no-repeat;
+  background-size: cover;
+}
+
+.teacher-topright span {
+  margin-top: 56px;
+  margin-left: 68px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  opacity: 1.0;
+  background: url(../../imgs/teacher/u1972.png) no-repeat;
+}
+
+.teacher-topright p {
+  margin-top: 10px;
+}
+
+.teacher-nav {
+  margin-right: 10px;
+  width: 260px;
+  height: 470px;
+  text-align: center;
+}
+
+.wechat-code {
+  margin-top: 10px;
+  padding-top: 20px;
+  width: 100%;
+  height: 200px;
+  background: #FFFFFF;
+}
+
+.wechat-code img {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; 
+  border: 1px solid #999999;
+}
+
+.wechat-code p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.teacher-nav ul {
+  padding: 20px 0;
+  height: 260px;
+  background: #FFFFFF;
+}
+
+.teacher-nav li {
+  margin: 10px 0;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.teacher-nav li:hover {
+  color: #4FA4EA;
+}
+
+.teacher-div {
+  padding: 20px 0;
+  width: 840px;
+  min-height: 280px;
+  background: #FFFFFF;
+}
+
+.noClass {
+  margin: 10px 0 0 20px;
+}
+
+.teacher-div > div {
+  display: none;
+}
+
+.teacher-div > div:first-child {
+  display: block;
+}
+
+.tip-reverse textarea {
+  margin:0 5%;
+  margin-top: 10px;
+  width: 90%;
+  height: 120px !important;
+  text-indent: 20px;
+  resize: none;
+}
+
+.tip-reverse span {
+  margin:0 5%;
+  font-size: 12px;
+}
+
+.tip-reverse button {
+  margin-left: 225px;
+  margin-top: 20px;
+  width: 60px;
+  height: 26px;
+  line-height: 24px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  background: #4FA4EA;
+  color: #FFFFFF;
+}
+
+.search-tip {
+  margin: 20px 0 20px 20px ;
+}
+
+.search-tip span {
+  margin: 0 4px;
+  color: #4FA4EA;
+}

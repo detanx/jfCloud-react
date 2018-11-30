@@ -1,0 +1,32 @@
+{
+  "name": "react-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "carousel": "0.0.3",
+    "es6-promise": "^4.2.4",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "prototype-add-method": "^1.0.10",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.23.1",
+    "redux": "^4.0.0",
+    "sass-loader": "^7.0.1",
+    "slick": "^1.12.2",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "layer": "^0.1.0"
+  }
+}

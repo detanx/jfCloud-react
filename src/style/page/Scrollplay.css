@@ -1,0 +1,62 @@
+.middle_right {
+  position: relative;
+	width:100%;
+	height: 100%;
+}
+
+#lunbobox {
+  z-index: 1;
+	width:100%;
+	height: 420px;
+	position:relative;
+}
+
+.lunbo {
+	width:100%;
+	height: 100%;
+}
+
+.lunbo div {
+  z-index: -1;
+	width:100%;
+	height: 100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.lunbo .aimg1 {
+	background: url(../../imgs/u13.jpg) no-repeat;
+	background-size: cover;
+}
+
+.lunbo .aimg2 {
+	background: url(../../imgs/u15.jpg) no-repeat;
+	background-size: cover;
+}
+
+.lunbo .aimg3 {
+	background: url(../../imgs/u17.jpg) no-repeat;
+	background-size: cover;
+}
+
+#lunbobox ul {
+	position:absolute;
+	left: 50%;
+	bottom:10px;
+	margin-left: -55px;
+	z-index: 99999;
+}
+
+#lunbobox ul li {
+  margin:0px 10px 0px 0px;
+	cursor:pointer;
+	width:30px;
+	height:6px;
+	border:1px solid #cccccc;
+	float:left;
+	list-style:none;
+	background:#cccccc;
+	text-align:center;
+	cursor: pointer;
+}

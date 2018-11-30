@@ -1,0 +1,100 @@
+.evaluat {
+	padding: 10px 20px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	box-sizing: border-box;
+}
+
+.evaluat .evaluat-left {
+	width: 12%;
+}
+
+.evaluat .evaluat-left img {
+	position: relative;
+	left: 50%;
+	margin-left: -40px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+	.evaluat .evaluat-left img {
+		position: relative;
+		left: 50%;
+		margin-left: -20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+	}
+}
+
+.evaluat .evaluat-left p {
+	padding: 4px 0;
+	text-align: center;
+}
+
+.evaluat .evaluat-right {
+	margin-left: 20px;
+	width: 80%;
+	
+}
+.evaluat .evaluat-right .stardiv > span {
+	margin-right: 6px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.evaluat .evaluat-right textarea {
+	margin-bottom: 6px;
+	width: 100%;
+	height: 80px;
+	resize: none;
+	text-indent: 10px;
+}
+
+.evaluat .evaluat-right #score1 i {
+  vertical-align: middle;
+	display: inline-block;
+	margin-right: 6px;
+  width: 16px;
+  height: 16px;
+  background: url(../../imgs/star.png) no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.evaluat .evaluat-right #score1 i.on {
+  background: url(../../imgs/stared.png) no-repeat center center;
+  background-size: cover;
+}
+
+.evaluat .evaluat-right .reviewSubmit {
+	width: 64px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+	background-color: #1DAAAA;
+	color: #FFFFFF;
+}
+
+.evaluat .evaluat-right .stars {
+	background: url(../../imgs/stared.png) no-repeat;
+	background-size: cover;
+}
+
+.evaluat .evaluat-right .nostar {
+	background: url(../../imgs/star.png) no-repeat;
+	background-size: cover;
+}

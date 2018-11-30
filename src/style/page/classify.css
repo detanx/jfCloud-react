@@ -1,0 +1,334 @@
+.detail-cover {
+  padding-top: 20px;
+  width: 100%;
+  border-top: 1px solid #CCCCCC;
+}
+
+.detail-classify { 
+  margin: 0 auto;
+  width: 1110px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.detail-list {
+  width: 100%;
+  height: 100%;
+  background: #F4F4F4;
+}
+
+.detail-list > p{
+  width: 100%;
+  height: 1px;
+  margin-bottom: 10px;
+}
+
+.detail-top {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	height: 328px;
+}
+
+.detail-classify > a {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+	color: #666666;
+}
+
+.detail-classify > a:hover {
+  color: #66A6DB;
+}
+
+.group-timetable ,
+.index-video {
+  margin: 10px auto;
+  width: 1110px;
+  background: #FFFFFF;
+}
+
+.detail-list .index-video ,
+.group-timetable{
+  padding: 20px;
+}
+
+.classbottom {
+  margin-bottom: 20px;
+}
+
+.videoUl {
+  min-height: 220px;
+  margin-bottom: 20px;
+}
+
+.videoDel {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../imgs/u2012.png) no-repeat;
+  background-size: 80%;
+  cursor: pointer;
+}
+
+.videoDel:hover {
+  background: url(../../imgs/u2012_mouseOver.png) no-repeat;
+  background-size: 80%;
+}
+
+.class-course {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 23%;
+  height: 200px;
+  border: 2px solid transparent;
+}
+
+.class-course:hover {
+  border: 2px solid #F5F5F5;
+}
+
+.class-course-left {
+  width: 100%;
+  height: 110px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  background: #F4F4F4;
+  cursor: pointer;
+}
+
+.class-course-right p ,
+.class-course-right1 p{
+  margin-top: 6px;
+  word-break: break-all;
+  text-overflow: ellipsis; /* for IE */  
+  -moz-text-overflow: ellipsis; /* for Firefox,mozilla */  
+  overflow: hidden;  
+  white-space: nowrap;  
+}
+
+.class-course-right span ,
+.class-course-right1 span{
+  max-width: 90px;
+  word-break: break-all;
+  text-overflow: ellipsis; /* for IE */  
+  -moz-text-overflow: ellipsis; /* for Firefox,mozilla */  
+  overflow: hidden;  
+  white-space: nowrap; 
+  font-size: 12px;
+  color: #999999;
+}
+
+.class-course-right1 span{
+  margin-top: 8px;
+  max-width: 120px;
+}
+
+.class-course-right1 span.star {
+  position: relative;
+  top: -4px;
+  width: 20px;
+  height: 20px;
+  background: url(../../imgs/star.png) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.class-course-right1 span.stared {
+  position: relative;
+  top: -4px;
+  width: 20px;
+  height: 20px;
+  background: url(../../imgs/stared.png) no-repeat;
+  background-size: cover;
+}
+
+
+.group-timetable .course-scroll {
+  margin: 0 auto;
+  width: 512px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.group-timetable h2 ,
+.index-video h2 {
+  padding: 10px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.detail-classify .detail-video {
+	width: 48%;
+	margin-right: 2%;
+}
+.detail-classify video {
+  width: 100%;
+  height: 328px;
+}
+
+.detail-classify .detail-intro {
+	width: 50%;
+}
+
+.detail-classify .detail-intro-top {
+  min-height: 200px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.detail-classify .detail-img {
+	margin-right: 2%;
+	width: 30%;
+	height: 120px;
+	text-align: center;
+}
+
+.detail-classify .detail-img p {
+  font-size: 16px;
+}
+
+.detail-classify .detail-img img {
+	display: block;
+	margin: 8px auto;
+	margin-bottom: 10px;
+	width: 120px;
+	height: 100%;
+	border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 1px solid #EEEEEE;
+}
+
+.detail-classify .detail-p {
+	width: 68%;
+	height: 120px;
+}
+
+span.course-name {
+  margin: 0;
+  padding: 0;
+  width: 308px;
+  font-size: 16px;
+  word-break: break-all;
+  text-overflow: ellipsis; /* for IE */  
+  -moz-text-overflow: ellipsis; /* for Firefox,mozilla */  
+  overflow: hidden;  
+  white-space: nowrap; 
+  color: black; 
+}
+
+.detail-classify .detail-p span.star ,
+.detail-classify .detail-p span.stared {
+	display: inline-block;
+	margin-right: 4px;
+	margin-top: 0;
+	width: 16px;
+	height: 20px;
+	background: url(../../imgs/star.png) no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.detail-classify .detail-p span.stared {
+	background: url(../../imgs/stared.png) no-repeat;
+	background-size: 100%;
+}
+
+.detail-classify p {
+	margin-top: 10px;
+	line-height: 1.2rem;
+	height: 1.2rem;
+	font-size: 0.8rem;
+}
+
+.detail-classify p.msgOverflow {
+  height: 60px;
+  line-height: 16px;
+  word-break: break-word;
+  overflow-y: scroll;
+}
+
+.detail-classify p.group-intro {
+  height: 80px;
+  word-break: break-word;
+  overflow-y: scroll;
+}
+
+.teacher-intro {
+  min-height: 60px;
+  overflow: hidden;
+  color: #C0C0C0;
+}
+
+.detail-classify .pmargin {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	font-size: 1rem;
+	text-indent: 0;
+}
+
+.detail-classify .detail-bottom {
+	margin: 20px 0;
+	width: 100%;
+	min-width: 480px;
+	height: 820px;
+	background: #E9E7E7;
+}
+
+.evaluatCover {
+  height: 750px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.coverIntro {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-classify .detail-bottom ul {
+	width: 100%;
+  border-top: 4px solid #E9E7E7;
+  background: #FFF;
+}
+
+.detail-bottom .panel {
+	margin: 40px 0 20px 110px;
+	width: 840px;
+}
+
+.panel-heading h2{
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.detail-classify .detail-bottom li {
+	float: left;
+	width: 364px;
+  height: 58px;
+  line-height: 58px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.detail-classify .detail-bottom li a:hover {
+  color: #4FA4EA;
+}
+
+.detail-classify .detail-bottom li a {
+  position: relative;
+  z-index: 999;
+  display: block;
+	width: 100%;
+  height: 58px;
+  line-height: 50px;
+	color: black;
+}
+
+.detail-bottom li a.activeClass {
+	border-bottom:4px solid #4FA4EA;
+	color: #4FA4EA;
+	background: #FFF;
+}
